@@ -1,0 +1,16 @@
+---
+title: "A minimal R project with make"
+author: "Benjamin J. Cairns"
+date: "15 February 2017"
+output: html_document
+---
+
+This is an R Markdown document; see <http://rmarkdown.rstudio.com>.
+
+Since this is R Markdown, here is some embedded R code, and output:
+
+```{r, echo=TRUE}
+# Use plot.ts() because the unit tests show AirPassengers is of class "ts"
+plot.ts(AirPassengers)
+```
+
